@@ -1,0 +1,134 @@
+module StripeAPI.Types.Customer where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified StripeAPI.Common
+data Customer
+instance Show Customer
+instance Eq Customer
+instance FromJSON Customer
+instance ToJSON Customer
+data CustomerAddress'NonNullable
+instance Show CustomerAddress'NonNullable
+instance Eq CustomerAddress'NonNullable
+instance FromJSON CustomerAddress'NonNullable
+instance ToJSON CustomerAddress'NonNullable
+data CustomerCashBalance'NonNullable
+instance Show CustomerCashBalance'NonNullable
+instance Eq CustomerCashBalance'NonNullable
+instance FromJSON CustomerCashBalance'NonNullable
+instance ToJSON CustomerCashBalance'NonNullable
+data CustomerCashBalance'NonNullableObject'
+instance Show CustomerCashBalance'NonNullableObject'
+instance Eq CustomerCashBalance'NonNullableObject'
+instance FromJSON CustomerCashBalance'NonNullableObject'
+instance ToJSON CustomerCashBalance'NonNullableObject'
+data CustomerDefaultSource'NonNullableVariants
+instance Show CustomerDefaultSource'NonNullableVariants
+instance Eq CustomerDefaultSource'NonNullableVariants
+instance FromJSON CustomerDefaultSource'NonNullableVariants
+instance ToJSON CustomerDefaultSource'NonNullableVariants
+data CustomerDiscount'NonNullable
+instance Show CustomerDiscount'NonNullable
+instance Eq CustomerDiscount'NonNullable
+instance FromJSON CustomerDiscount'NonNullable
+instance ToJSON CustomerDiscount'NonNullable
+data CustomerDiscount'NonNullableCustomer'NonNullableVariants
+instance Show CustomerDiscount'NonNullableCustomer'NonNullableVariants
+instance Eq CustomerDiscount'NonNullableCustomer'NonNullableVariants
+instance FromJSON CustomerDiscount'NonNullableCustomer'NonNullableVariants
+instance ToJSON CustomerDiscount'NonNullableCustomer'NonNullableVariants
+data CustomerDiscount'NonNullableObject'
+instance Show CustomerDiscount'NonNullableObject'
+instance Eq CustomerDiscount'NonNullableObject'
+instance FromJSON CustomerDiscount'NonNullableObject'
+instance ToJSON CustomerDiscount'NonNullableObject'
+data CustomerDiscount'NonNullablePromotionCode'NonNullableVariants
+instance Show CustomerDiscount'NonNullablePromotionCode'NonNullableVariants
+instance Eq CustomerDiscount'NonNullablePromotionCode'NonNullableVariants
+instance FromJSON CustomerDiscount'NonNullablePromotionCode'NonNullableVariants
+instance ToJSON CustomerDiscount'NonNullablePromotionCode'NonNullableVariants
+data CustomerShipping'NonNullable
+instance Show CustomerShipping'NonNullable
+instance Eq CustomerShipping'NonNullable
+instance FromJSON CustomerShipping'NonNullable
+instance ToJSON CustomerShipping'NonNullable
+data CustomerSources'
+instance Show CustomerSources'
+instance Eq CustomerSources'
+instance FromJSON CustomerSources'
+instance ToJSON CustomerSources'
+data CustomerSources'Data'
+instance Show CustomerSources'Data'
+instance Eq CustomerSources'Data'
+instance FromJSON CustomerSources'Data'
+instance ToJSON CustomerSources'Data'
+data CustomerSources'Data'Account'NonNullableVariants
+instance Show CustomerSources'Data'Account'NonNullableVariants
+instance Eq CustomerSources'Data'Account'NonNullableVariants
+instance FromJSON CustomerSources'Data'Account'NonNullableVariants
+instance ToJSON CustomerSources'Data'Account'NonNullableVariants
+data CustomerSources'Data'AvailablePayoutMethods'NonNullable
+instance Show CustomerSources'Data'AvailablePayoutMethods'NonNullable
+instance Eq CustomerSources'Data'AvailablePayoutMethods'NonNullable
+instance FromJSON CustomerSources'Data'AvailablePayoutMethods'NonNullable
+instance ToJSON CustomerSources'Data'AvailablePayoutMethods'NonNullable
+data CustomerSources'Data'Customer'NonNullableVariants
+instance Show CustomerSources'Data'Customer'NonNullableVariants
+instance Eq CustomerSources'Data'Customer'NonNullableVariants
+instance FromJSON CustomerSources'Data'Customer'NonNullableVariants
+instance ToJSON CustomerSources'Data'Customer'NonNullableVariants
+data CustomerSources'Data'Object'
+instance Show CustomerSources'Data'Object'
+instance Eq CustomerSources'Data'Object'
+instance FromJSON CustomerSources'Data'Object'
+instance ToJSON CustomerSources'Data'Object'
+data CustomerSources'Data'Owner'NonNullable
+instance Show CustomerSources'Data'Owner'NonNullable
+instance Eq CustomerSources'Data'Owner'NonNullable
+instance FromJSON CustomerSources'Data'Owner'NonNullable
+instance ToJSON CustomerSources'Data'Owner'NonNullable
+data CustomerSources'Data'Owner'NonNullableAddress'NonNullable
+instance Show CustomerSources'Data'Owner'NonNullableAddress'NonNullable
+instance Eq CustomerSources'Data'Owner'NonNullableAddress'NonNullable
+instance FromJSON CustomerSources'Data'Owner'NonNullableAddress'NonNullable
+instance ToJSON CustomerSources'Data'Owner'NonNullableAddress'NonNullable
+data CustomerSources'Data'Owner'NonNullableVerifiedAddress'NonNullable
+instance Show CustomerSources'Data'Owner'NonNullableVerifiedAddress'NonNullable
+instance Eq CustomerSources'Data'Owner'NonNullableVerifiedAddress'NonNullable
+instance FromJSON CustomerSources'Data'Owner'NonNullableVerifiedAddress'NonNullable
+instance ToJSON CustomerSources'Data'Owner'NonNullableVerifiedAddress'NonNullable
+data CustomerSources'Data'Recipient'NonNullableVariants
+instance Show CustomerSources'Data'Recipient'NonNullableVariants
+instance Eq CustomerSources'Data'Recipient'NonNullableVariants
+instance FromJSON CustomerSources'Data'Recipient'NonNullableVariants
+instance ToJSON CustomerSources'Data'Recipient'NonNullableVariants
+data CustomerSources'Data'Transactions'
+instance Show CustomerSources'Data'Transactions'
+instance Eq CustomerSources'Data'Transactions'
+instance FromJSON CustomerSources'Data'Transactions'
+instance ToJSON CustomerSources'Data'Transactions'
+data CustomerSources'Data'Type'
+instance Show CustomerSources'Data'Type'
+instance Eq CustomerSources'Data'Type'
+instance FromJSON CustomerSources'Data'Type'
+instance ToJSON CustomerSources'Data'Type'
+data CustomerSubscriptions'
+instance Show CustomerSubscriptions'
+instance Eq CustomerSubscriptions'
+instance FromJSON CustomerSubscriptions'
+instance ToJSON CustomerSubscriptions'
+data CustomerTaxExempt'NonNullable
+instance Show CustomerTaxExempt'NonNullable
+instance Eq CustomerTaxExempt'NonNullable
+instance FromJSON CustomerTaxExempt'NonNullable
+instance ToJSON CustomerTaxExempt'NonNullable
+data CustomerTaxIds'
+instance Show CustomerTaxIds'
+instance Eq CustomerTaxIds'
+instance FromJSON CustomerTaxIds'
+instance ToJSON CustomerTaxIds'
+data CustomerTestClock'NonNullableVariants
+instance Show CustomerTestClock'NonNullableVariants
+instance Eq CustomerTestClock'NonNullableVariants
+instance FromJSON CustomerTestClock'NonNullableVariants
+instance ToJSON CustomerTestClock'NonNullableVariants

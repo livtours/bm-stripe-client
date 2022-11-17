@@ -1,0 +1,29 @@
+specification: stripe-api.yml
+outputDir: out
+packageName: stripeapi
+moduleName: StripeAPI
+force: true
+omitAdditionalOperationFunctions: true
+convertToCamelCase: true
+propertyTypeSuffix: "'"
+whiteListedSchemas:
+  - charge
+  - error
+  - payment_intent
+  - customer
+  - invoice
+  - invoiceitem
+operationsToGenerate:
+  - GetPaymentIntentsIntent
+  - PostCharges
+  - PostChargesChargeCapture
+  - PostChargesChargeRefund
+  - PostPaymentIntents
+  - PostPaymentIntentsIntent
+  - PostCustomers
+  - PostInvoices
+  - PostInvoicesInvoiceSend
+  - PostInvoicesInvoiceFinalize
+  - PostInvoicesInvoiceVoid
+  - PostInvoiceItems
+  

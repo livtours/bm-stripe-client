@@ -1,0 +1,49 @@
+cabal-version: 1.12
+
+name:           stripeapi
+version:        0.1.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      StripeAPI
+      StripeAPI.Operations.PostCharges
+      StripeAPI.Operations.PostChargesChargeCapture
+      StripeAPI.Operations.PostChargesChargeRefund
+      StripeAPI.Operations.PostCustomers
+      StripeAPI.Operations.PostInvoices
+      StripeAPI.Operations.PostInvoicesInvoiceFinalize
+      StripeAPI.Operations.PostInvoicesInvoiceSend
+      StripeAPI.Operations.PostInvoicesInvoiceVoid
+      StripeAPI.Operations.PostPaymentIntents
+      StripeAPI.Operations.GetPaymentIntentsIntent
+      StripeAPI.Operations.PostPaymentIntentsIntent
+      StripeAPI.Types
+      StripeAPI.TypeAlias
+      StripeAPI.Types.Charge
+      StripeAPI.Types.Customer
+      StripeAPI.Types.Error
+      StripeAPI.Types.Invoice
+      StripeAPI.Types.Invoiceitem
+      StripeAPI.Types.PaymentIntent
+      StripeAPI.Configuration
+      StripeAPI.SecuritySchemes
+      StripeAPI.Common
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , text
+    , ghc-prim
+    , http-conduit
+    , http-client
+    , http-types
+    , bytestring
+    , aeson
+    , unordered-containers
+    , vector
+    , scientific
+    , time
+    , mtl
+    , transformers
+  default-language: Haskell2010

@@ -1,0 +1,109 @@
+module StripeAPI.Types.Charge where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified StripeAPI.Common
+data Charge
+instance Show Charge
+instance Eq Charge
+instance FromJSON Charge
+instance ToJSON Charge
+data ChargeApplication'NonNullableVariants
+instance Show ChargeApplication'NonNullableVariants
+instance Eq ChargeApplication'NonNullableVariants
+instance FromJSON ChargeApplication'NonNullableVariants
+instance ToJSON ChargeApplication'NonNullableVariants
+data ChargeApplicationFee'NonNullableVariants
+instance Show ChargeApplicationFee'NonNullableVariants
+instance Eq ChargeApplicationFee'NonNullableVariants
+instance FromJSON ChargeApplicationFee'NonNullableVariants
+instance ToJSON ChargeApplicationFee'NonNullableVariants
+data ChargeBalanceTransaction'NonNullableVariants
+instance Show ChargeBalanceTransaction'NonNullableVariants
+instance Eq ChargeBalanceTransaction'NonNullableVariants
+instance FromJSON ChargeBalanceTransaction'NonNullableVariants
+instance ToJSON ChargeBalanceTransaction'NonNullableVariants
+data ChargeCustomer'NonNullableVariants
+instance Show ChargeCustomer'NonNullableVariants
+instance Eq ChargeCustomer'NonNullableVariants
+instance FromJSON ChargeCustomer'NonNullableVariants
+instance ToJSON ChargeCustomer'NonNullableVariants
+data ChargeFailureBalanceTransaction'NonNullableVariants
+instance Show ChargeFailureBalanceTransaction'NonNullableVariants
+instance Eq ChargeFailureBalanceTransaction'NonNullableVariants
+instance FromJSON ChargeFailureBalanceTransaction'NonNullableVariants
+instance ToJSON ChargeFailureBalanceTransaction'NonNullableVariants
+data ChargeFraudDetails'NonNullable
+instance Show ChargeFraudDetails'NonNullable
+instance Eq ChargeFraudDetails'NonNullable
+instance FromJSON ChargeFraudDetails'NonNullable
+instance ToJSON ChargeFraudDetails'NonNullable
+data ChargeInvoice'NonNullableVariants
+instance Show ChargeInvoice'NonNullableVariants
+instance Eq ChargeInvoice'NonNullableVariants
+instance FromJSON ChargeInvoice'NonNullableVariants
+instance ToJSON ChargeInvoice'NonNullableVariants
+data ChargeOnBehalfOf'NonNullableVariants
+instance Show ChargeOnBehalfOf'NonNullableVariants
+instance Eq ChargeOnBehalfOf'NonNullableVariants
+instance FromJSON ChargeOnBehalfOf'NonNullableVariants
+instance ToJSON ChargeOnBehalfOf'NonNullableVariants
+data ChargeOutcome'NonNullable
+instance Show ChargeOutcome'NonNullable
+instance Eq ChargeOutcome'NonNullable
+instance FromJSON ChargeOutcome'NonNullable
+instance ToJSON ChargeOutcome'NonNullable
+data ChargeOutcome'NonNullableRule'Variants
+instance Show ChargeOutcome'NonNullableRule'Variants
+instance Eq ChargeOutcome'NonNullableRule'Variants
+instance FromJSON ChargeOutcome'NonNullableRule'Variants
+instance ToJSON ChargeOutcome'NonNullableRule'Variants
+data ChargePaymentIntent'NonNullableVariants
+instance Show ChargePaymentIntent'NonNullableVariants
+instance Eq ChargePaymentIntent'NonNullableVariants
+instance FromJSON ChargePaymentIntent'NonNullableVariants
+instance ToJSON ChargePaymentIntent'NonNullableVariants
+data ChargePaymentMethodDetails'NonNullable
+instance Show ChargePaymentMethodDetails'NonNullable
+instance Eq ChargePaymentMethodDetails'NonNullable
+instance FromJSON ChargePaymentMethodDetails'NonNullable
+instance ToJSON ChargePaymentMethodDetails'NonNullable
+data ChargeRefunds'
+instance Show ChargeRefunds'
+instance Eq ChargeRefunds'
+instance FromJSON ChargeRefunds'
+instance ToJSON ChargeRefunds'
+data ChargeReview'NonNullableVariants
+instance Show ChargeReview'NonNullableVariants
+instance Eq ChargeReview'NonNullableVariants
+instance FromJSON ChargeReview'NonNullableVariants
+instance ToJSON ChargeReview'NonNullableVariants
+data ChargeShipping'NonNullable
+instance Show ChargeShipping'NonNullable
+instance Eq ChargeShipping'NonNullable
+instance FromJSON ChargeShipping'NonNullable
+instance ToJSON ChargeShipping'NonNullable
+data ChargeSourceTransfer'NonNullableVariants
+instance Show ChargeSourceTransfer'NonNullableVariants
+instance Eq ChargeSourceTransfer'NonNullableVariants
+instance FromJSON ChargeSourceTransfer'NonNullableVariants
+instance ToJSON ChargeSourceTransfer'NonNullableVariants
+data ChargeStatus'
+instance Show ChargeStatus'
+instance Eq ChargeStatus'
+instance FromJSON ChargeStatus'
+instance ToJSON ChargeStatus'
+data ChargeTransfer'Variants
+instance Show ChargeTransfer'Variants
+instance Eq ChargeTransfer'Variants
+instance FromJSON ChargeTransfer'Variants
+instance ToJSON ChargeTransfer'Variants
+data ChargeTransferData'NonNullable
+instance Show ChargeTransferData'NonNullable
+instance Eq ChargeTransferData'NonNullable
+instance FromJSON ChargeTransferData'NonNullable
+instance ToJSON ChargeTransferData'NonNullable
+data ChargeTransferData'NonNullableDestination'Variants
+instance Show ChargeTransferData'NonNullableDestination'Variants
+instance Eq ChargeTransferData'NonNullableDestination'Variants
+instance FromJSON ChargeTransferData'NonNullableDestination'Variants
+instance ToJSON ChargeTransferData'NonNullableDestination'Variants
