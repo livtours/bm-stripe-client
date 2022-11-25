@@ -7,10 +7,8 @@ build-type:     Simple
 library
   exposed-modules:
       StripeAPI
-      StripeAPI.Operations.PostCharges
-      StripeAPI.Operations.PostChargesChargeCapture
-      StripeAPI.Operations.PostChargesChargeRefund
       StripeAPI.Operations.PostCustomers
+      StripeAPI.Operations.PostInvoiceitems
       StripeAPI.Operations.PostInvoices
       StripeAPI.Operations.PostInvoicesInvoiceFinalize
       StripeAPI.Operations.PostInvoicesInvoiceSend
@@ -18,6 +16,9 @@ library
       StripeAPI.Operations.PostPaymentIntents
       StripeAPI.Operations.GetPaymentIntentsIntent
       StripeAPI.Operations.PostPaymentIntentsIntent
+      StripeAPI.Operations.PostPaymentIntentsIntentCancel
+      StripeAPI.Operations.PostPaymentIntentsIntentCapture
+      StripeAPI.Operations.PostRefunds
       StripeAPI.Types
       StripeAPI.TypeAlias
       StripeAPI.Types.Charge

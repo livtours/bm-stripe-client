@@ -15,15 +15,15 @@ whiteListedSchemas:
   - invoiceitem
 operationsToGenerate:
   - GetPaymentIntentsIntent
-  - PostCharges
-  - PostChargesChargeCapture
-  - PostChargesChargeRefund
   - PostPaymentIntents
   - PostPaymentIntentsIntent
+  - PostPaymentIntentsIntentCapture
+  - PostPaymentIntentsIntentCancel
   - PostCustomers
   - PostInvoices
   - PostInvoicesInvoiceSend
   - PostInvoicesInvoiceFinalize
   - PostInvoicesInvoiceVoid
-  - PostInvoiceItems
+  - PostInvoiceitems
+  - PostRefunds
   

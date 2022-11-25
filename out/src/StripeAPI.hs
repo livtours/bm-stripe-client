@@ -2,10 +2,8 @@
 
 -- | The main module which exports all functionality.
 module StripeAPI (
-  module StripeAPI.Operations.PostCharges,
-  module StripeAPI.Operations.PostChargesChargeCapture,
-  module StripeAPI.Operations.PostChargesChargeRefund,
   module StripeAPI.Operations.PostCustomers,
+  module StripeAPI.Operations.PostInvoiceitems,
   module StripeAPI.Operations.PostInvoices,
   module StripeAPI.Operations.PostInvoicesInvoiceFinalize,
   module StripeAPI.Operations.PostInvoicesInvoiceSend,
@@ -13,6 +11,9 @@ module StripeAPI (
   module StripeAPI.Operations.PostPaymentIntents,
   module StripeAPI.Operations.GetPaymentIntentsIntent,
   module StripeAPI.Operations.PostPaymentIntentsIntent,
+  module StripeAPI.Operations.PostPaymentIntentsIntentCancel,
+  module StripeAPI.Operations.PostPaymentIntentsIntentCapture,
+  module StripeAPI.Operations.PostRefunds,
   module StripeAPI.Types,
   module StripeAPI.TypeAlias,
   module StripeAPI.Types.Charge,
@@ -26,10 +27,8 @@ module StripeAPI (
   module StripeAPI.Common,
   ) where
 
-import StripeAPI.Operations.PostCharges
-import StripeAPI.Operations.PostChargesChargeCapture
-import StripeAPI.Operations.PostChargesChargeRefund
 import StripeAPI.Operations.PostCustomers
+import StripeAPI.Operations.PostInvoiceitems
 import StripeAPI.Operations.PostInvoices
 import StripeAPI.Operations.PostInvoicesInvoiceFinalize
 import StripeAPI.Operations.PostInvoicesInvoiceSend
@@ -37,6 +36,9 @@ import StripeAPI.Operations.PostInvoicesInvoiceVoid
 import StripeAPI.Operations.PostPaymentIntents
 import StripeAPI.Operations.GetPaymentIntentsIntent
 import StripeAPI.Operations.PostPaymentIntentsIntent
+import StripeAPI.Operations.PostPaymentIntentsIntentCancel
+import StripeAPI.Operations.PostPaymentIntentsIntentCapture
+import StripeAPI.Operations.PostRefunds
 import StripeAPI.Types
 import StripeAPI.TypeAlias
 import StripeAPI.Types.Charge
